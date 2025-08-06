@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7905f9781011a4790dfe87e34544fc, type: 3}
+  m_Name: Lily
+  m_EditorClassIdentifier: 
+  CharacterName: Lily
+  Description: Description
+  Affiliation: 1
+  SkillDefinitions:
+  - {fileID: 11400000, guid: 65681f5306849e540b4a138ce9cf5f30, type: 2}
+  - {fileID: 11400000, guid: cd792fa3f161cf64eba90b0764b15349, type: 2}
+  - {fileID: 11400000, guid: 9cb09b8d3ee125244b9f535e726440fc, type: 2}
+  CharacterSprite: {fileID: 21300000, guid: 08ad719ae0eeb824f91f23973ecf6c7b, type: 3}
+  WeaponSprite: {fileID: 21300000, guid: 9e5ab2f766addeb49a729b5fd5399f30, type: 3}
+  Class: 2
+  maxHealth: 20000
+  maxStamina: 10000
+  defense: 150
+  speed: 25
+  might: 1150
+  arcane: 1550
+  Critical: 250
+  accuracy: 1000

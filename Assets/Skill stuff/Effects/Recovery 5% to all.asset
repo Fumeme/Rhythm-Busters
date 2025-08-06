@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1f6984cb31774f97e15a2200a7d5b, type: 3}
+  m_Name: Recovery 5% to all
+  m_EditorClassIdentifier: 
+  SkillEffectName: Recovery 5% to all
+  Description: 
+  duration: 1
+  power: 5
+  BonusMult: 1
+  targetting: 14
+  effectType: 3
+  sign: 1
+  StatusesToApply:
+  - {fileID: 11400000, guid: 817154db20c97b447b46435bb8c4f129, type: 2}
+  StatusEffectScaling: {fileID: 0}

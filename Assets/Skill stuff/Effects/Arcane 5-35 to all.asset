@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1f6984cb31774f97e15a2200a7d5b, type: 3}
+  m_Name: Arcane 5-35 to all
+  m_EditorClassIdentifier: 
+  SkillEffectName: Arcane+Might 5-35 to all
+  Description: Arcane and might 4 for 35 to all allies
+  duration: 35
+  power: 5
+  BonusMult: 1
+  targetting: 12
+  TargettingFilter: 
+  effectType: 4
+  sign: 1
+  StatusesToApply:
+  - {fileID: 11400000, guid: 73a41e2681257d3478a6c342fa970bf4, type: 2}
+  - {fileID: 11400000, guid: 9af14a02542e2a7489a635d721f6cbcf, type: 2}
+  StatusEffectScaling: {fileID: 0}
+  requiredDamageSource: 0

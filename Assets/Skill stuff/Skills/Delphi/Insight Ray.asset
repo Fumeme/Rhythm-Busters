@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cae4ec13ca66b44b40aa9ff5ef54e1, type: 3}
+  m_Name: Insight Ray
+  m_EditorClassIdentifier: 
+  SkillName: Insight Ray
+  description: Deal 125% Damage to Centre group, scales with Arcane up. Arcane up
+    4 for 15 to all. accuracy up 3 for 10 to all.
+  cooldown: 25
+  warmup: 0
+  cost: 750
+  skillType: 2
+  Conditions: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 3ddf02a5f8a26cc4fb82b11917fdaa66, type: 2}
+  - {fileID: 11400000, guid: 0f4356437415e824eb86a7d4e5ab1f02, type: 2}
+  - {fileID: 11400000, guid: 381a59af77cd55e42b0b23aca002d492, type: 2}
+  SkillIcon: {fileID: 0}

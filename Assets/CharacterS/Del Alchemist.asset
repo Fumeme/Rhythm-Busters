@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7905f9781011a4790dfe87e34544fc, type: 3}
+  m_Name: Del Alchemist
+  m_EditorClassIdentifier: 
+  CharacterName: Delphi, Master Alchemist
+  Description: Description
+  Affiliation: 1
+  SkillDefinitions:
+  - {fileID: 11400000, guid: 22f5ef7ee4ecf724c8e5abda4b7ba3ec, type: 2}
+  - {fileID: 11400000, guid: 960e8acb563a34f4da19c2731e917a12, type: 2}
+  CharacterSprite: {fileID: 21300000, guid: f0ce1d756d5a2e34fb1168fa1758adb2, type: 3}
+  WeaponSprite: {fileID: 21300000, guid: 9e5ab2f766addeb49a729b5fd5399f30, type: 3}
+  Class: 2
+  maxHealth: 30000
+  maxStamina: 2250
+  defense: 650
+  speed: 80
+  might: 1250
+  arcane: 750
+  Critical: 775
+  accuracy: 1250

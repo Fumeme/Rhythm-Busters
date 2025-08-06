@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cae4ec13ca66b44b40aa9ff5ef54e1, type: 3}
+  m_Name: Battlefield Cure
+  m_EditorClassIdentifier: 
+  SkillName: Battlefield Cure
+  description: slapper
+  cooldown: 40
+  warmup: 0
+  cost: 300
+  skillType: 0
+  Conditions: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 33a0b4dab23f0e4449b4cff7ed9fba57, type: 2}
+  - {fileID: 11400000, guid: 1c14857dd71f4e34789cd10364e3d103, type: 2}
+  SkillIcon: {fileID: 0}

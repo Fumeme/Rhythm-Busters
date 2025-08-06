@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1f6984cb31774f97e15a2200a7d5b, type: 3}
+  m_Name: Strike up 3-15 + HP up 1-20
+  m_EditorClassIdentifier: 
+  SkillEffectName: Strike up 3-15 + HP up 1-20
+  Description: damage for 50%
+  duration: 25
+  power: 2
+  BonusMult: 1
+  targetting: 13
+  TargettingFilter: 
+  effectType: 4
+  sign: 1
+  StatusesToApply:
+  - {fileID: 11400000, guid: bec15050a336b4349996d10d97a1cd3a, type: 2}
+  - {fileID: 11400000, guid: 4d1ebb462f9f0104b91b37e7e3b5d4d2, type: 2}
+  StatusEffectScaling: {fileID: 0}
+  requiredDamageSource: 6

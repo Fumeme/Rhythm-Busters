@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CandyAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ae2103dc478904260be2766fb18f2c16, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c6f43660051a64511a7e53ba506f64bf: 21300000
+    - c5d7c7c10c3014b288677971f5c07674: 21300000
+    - fd9c8205932c7467396d46e0a0c04e6a: 21300000
+    - 74400b0caaa784ca2b82289f7914489e: 21300000
+    - dfe40a5ea447b4d8aa8c860756c0a935: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c6f43660051a64511a7e53ba506f64bf, type: 3}
+  - {fileID: 21300000, guid: c5d7c7c10c3014b288677971f5c07674, type: 3}
+  - {fileID: 21300000, guid: fd9c8205932c7467396d46e0a0c04e6a, type: 3}
+  - {fileID: 21300000, guid: 74400b0caaa784ca2b82289f7914489e, type: 3}
+  - {fileID: 21300000, guid: dfe40a5ea447b4d8aa8c860756c0a935, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - DonutPink
+  - CakeMacaron
+  - HouseGingerbread
+  - CakeCocoBall
+  - CakeSlice
+  m_RenderDataMap: {}
+  m_Tag: CandyAtlas
+  m_IsVariant: 0

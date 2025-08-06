@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1f6984cb31774f97e15a2200a7d5b, type: 3}
+  m_Name: Strike 3-15 to rear
+  m_EditorClassIdentifier: 
+  SkillEffectName: Strike 3-15 to rear
+  Description: damage for 50%
+  duration: 15
+  power: 3
+  BonusMult: 1
+  targetting: 10
+  TargettingFilter: 
+  effectType: 4
+  sign: 1
+  StatusesToApply:
+  - {fileID: 11400000, guid: bec15050a336b4349996d10d97a1cd3a, type: 2}
+  StatusEffectScaling: {fileID: 0}
+  requiredDamageSource: 0

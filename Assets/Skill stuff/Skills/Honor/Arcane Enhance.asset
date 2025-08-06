@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cae4ec13ca66b44b40aa9ff5ef54e1, type: 3}
+  m_Name: Arcane Enhance
+  m_EditorClassIdentifier: 
+  SkillName: Arcane Enhance
+  description: slapper
+  cooldown: 40
+  warmup: 0
+  cost: 300
+  skillType: 2
+  Conditions: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 0a099b736bac18c41b0bb18b9c8dedfd, type: 2}
+  - {fileID: 11400000, guid: 25087bd97ccf5fd418395cdfe75b461f, type: 2}
+  SkillIcon: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cae4ec13ca66b44b40aa9ff5ef54e1, type: 3}
+  m_Name: Sweets
+  m_EditorClassIdentifier: 
+  SkillName: slap
+  description: slapper
+  cooldown: 25
+  warmup: 0
+  cost: 300
+  skillType: 2
+  Conditions: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 6728076a88a2f5c42a4150f6e79cb1ab, type: 2}
+  - {fileID: 11400000, guid: 1acfb334b4304aa44a448d7610697202, type: 2}
+  - {fileID: 11400000, guid: 8a0912fd2b6e07b4bb557d487f5af091, type: 2}
+  SkillIcon: {fileID: 0}

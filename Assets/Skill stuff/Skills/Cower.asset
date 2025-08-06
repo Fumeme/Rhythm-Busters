@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cae4ec13ca66b44b40aa9ff5ef54e1, type: 3}
+  m_Name: Cower
+  m_EditorClassIdentifier: 
+  SkillName: Cower
+  description: slapper
+  cooldown: 20
+  warmup: 10
+  cost: 50
+  skillType: 0
+  Conditions: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 8342b53f1b44e364fbc7a5a8245bee98, type: 2}
+  - {fileID: 11400000, guid: 79109965e6efa3e4ba86f2344d05d6db, type: 2}
+  SkillIcon: {fileID: 0}

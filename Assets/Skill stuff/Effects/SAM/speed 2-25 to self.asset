@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1f6984cb31774f97e15a2200a7d5b, type: 3}
+  m_Name: speed 2-25 to self
+  m_EditorClassIdentifier: 
+  SkillEffectName: speed 2-25 to self
+  Description: damage for 50%
+  duration: 25
+  power: 2
+  BonusMult: 1
+  targetting: 13
+  TargettingFilter: 
+  effectType: 4
+  sign: 1
+  StatusesToApply:
+  - {fileID: 11400000, guid: 88c2c500546e3ef41b3318b8c84485aa, type: 2}
+  StatusEffectScaling: {fileID: 0}
+  requiredDamageSource: 6

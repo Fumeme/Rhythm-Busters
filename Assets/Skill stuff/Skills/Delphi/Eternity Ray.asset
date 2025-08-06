@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cae4ec13ca66b44b40aa9ff5ef54e1, type: 3}
+  m_Name: Eternity Ray
+  m_EditorClassIdentifier: 
+  SkillName: Eternity Ray
+  description: 'Deal 850% damage to from enemy, scales with arcane up.
+
+    affinity
+    3-30 to self.'
+  cooldown: 40
+  warmup: 0
+  cost: 1750
+  skillType: 1
+  Conditions: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 957be0a35658f554a92f418491f43421, type: 2}
+  - {fileID: 11400000, guid: 0f4356437415e824eb86a7d4e5ab1f02, type: 2}
+  SkillIcon: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1f6984cb31774f97e15a2200a7d5b, type: 3}
+  m_Name: Arcane up 4-30 to all
+  m_EditorClassIdentifier: 
+  SkillEffectName: Arcane up 4-30 to all
+  Description: damage for 50%
+  duration: 5
+  power: 2
+  BonusMult: 1
+  targetting: 14
+  TargettingFilter: 
+  effectType: 4
+  sign: 1
+  StatusesToApply:
+  - {fileID: 11400000, guid: 4731c4ebf8a103241b6398a1f06a42db, type: 2}
+  StatusEffectScaling: {fileID: 0}

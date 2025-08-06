@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cae4ec13ca66b44b40aa9ff5ef54e1, type: 3}
+  m_Name: Prayer of hope
+  m_EditorClassIdentifier: 
+  SkillName: Luminous Blast
+  description: Arcane up 5 for 25 to self. Heal 15% to self, scales with Might up
+  cooldown: 5
+  warmup: 0
+  cost: 75
+  skillType: 0
+  Conditions: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 133d046043fbce04c8571481e3eadeb8, type: 2}
+  - {fileID: 11400000, guid: 8b21d21f39a81d94cbdf2685545b9567, type: 2}
+  SkillIcon: {fileID: 0}

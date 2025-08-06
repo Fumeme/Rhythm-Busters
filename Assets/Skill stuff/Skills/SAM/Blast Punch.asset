@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cae4ec13ca66b44b40aa9ff5ef54e1, type: 3}
+  m_Name: Blast Punch
+  m_EditorClassIdentifier: 
+  SkillName: Blast Punch
+  description: on strike, deal 135% of damage dealt to all. speed up 2-25 to self.
+    extend buffs 5 to self
+  cooldown: 15
+  warmup: 0
+  cost: 300
+  skillType: 0
+  Conditions: {fileID: 11400000, guid: 3fdce0d1fa3648b4b92f5f6a65480084, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 4b34e25d6ec56c64f89cca0dd6068f6b, type: 2}
+  - {fileID: 11400000, guid: e29f00101970881439271fadd6b0f7f7, type: 2}
+  - {fileID: 11400000, guid: d7d7e81faccdf5c42845a2d61acf5800, type: 2}
+  SkillIcon: {fileID: 0}
